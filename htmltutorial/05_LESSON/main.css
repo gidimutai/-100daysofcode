@@ -1,0 +1,17 @@
+html {
+  font-size: 22px;
+}
+
+body {
+  background-color: rgb(68, 13, 13);
+  color: rgb(245, 247, 247);
+}
+
+h1{
+  color: blue;
+  font-family:'Courier New'
+}
+ol{
+  color: aqua;
+  font-family:cursive
+}
