@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common Types of Form in HTML</title>
+   
+</head>
+<body>
+    <h2>Text input form</h2>
+    <form >
+        <label for="Username">Username:</label>
+        <input type="text" id="newUsername" name="Username" required>
+    </form>
+    <h2>Password Input Form</h2>
+    <form>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <input type="submit" value="Submit">
+  </form>
+  <h2>Email Input Form</h2>
+  <form>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <input type="submit" value="Submit">
+</form>
+<h2>Number Input Form</h2>
+<form>
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity">
+  <input type="submit" value="Submit">
+</form>
+<h2>Textarea Form</h2>
+<form>
+  <label for="message">Message:</label>
+  <textarea id="message" name="message"></textarea>
+  <input type="submit" value="Submit">
+</form>
+<h2>Checkbox Form</h2>
+<form>
+  <input type="checkbox" id="agree" name="agree">
+  <label for="agree">I agree to the terms and conditions</label>
+  <input type="submit" value="Submit">
+</form>
+<h2>Radio Button Form</h2>
+<form>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="submit" value="Submit">
+</form>
+<h2>File Upload Form</h2>
+<form enctype="multipart/form-data">
+  <input type="file" id="file" name="file">
+  <input type="submit" value="Upload">
+</form>
+
+</body>
+</html>
+
