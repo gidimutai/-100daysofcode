@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="airbnb-logo.png" alt="Airbnb Logo">
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="Search...">
+          <button type="submit">Search</button>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rates</a></li>
+                <li><a href="#">Availability</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="booking">
+            <h2>Book Your Stay</h2>
+            <form>
+                <label for="accommodation-type">Accommodation Type:</label>
+                <select id="accommodation-type" name="accommodation-type">
+                    <option value="bedsitter">Bedsitter</option>
+                    <option value="one-bedroom">One Bedroom</option>
+                    <option value="two-bedroom">Two Bedroom</option>
+                    <option value="villa">Villa</option>
+                </select>
+
+                <label for="check-in-date">Check-in Date:</label>
+                <input type="date" id="check-in-date" name="check-in-date">
+
+                <label for="check-out-date">Check-out Date:</label>
+                <input type="date" id="check-out-date" name="check-out-date">
+
+                <label for="check-out-time">Check-out Time:</label>
+                <input type="time" id="check-out-time" name="check-out-time">
+
+                <label for="services">Services:</label>
+                <select id="services" name="services">
+                    <option value="cleaning">Cleaning</option>
+                    <option value="breakfast">Breakfast</option>
+                    <option value="laundry">Laundry</option>
+                </select>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+
+        <section class="about">
+            <h2>About Airbnb Plus</h2>
+            <p>Airbnb Plus is a selection of only the highest quality homes with hosts known for great reviews and attention to detail. Every home is verified through in-person quality inspection to ensure quality and comfort.</p>
+        </section>
+
+        <section class="reviews">
+            <h2>Guest Reviews</h2>
+            <div class="review">
+                <h3>Diwani Jemedari</h3>
+                <p>"My stay at an Airbnb Plus home was absolutely amazing! The house was stylish, clean, and had all the amenities I needed. The host was also very accommodating and made sure everything was perfect for my stay."</p>
+            </div>
+            <div class="review">
+                <h3>Almasi Jemedari </h3>
+                <p>"I had a fantastic experience staying at an Airbnb Plus property. The attention to detail in the design and amenities made my stay feel luxurious. I highly recommend Airbnb Plus to anyone looking for a top-notch accommodation experience."</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rates</a></li>
+                <li><a href="#">Availability</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Book Now</a></li>
+            </ul>
+        </nav>
+        <div class="social-icons">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <!-- Add more social media icons as needed -->
+        </div>
+        <p>&copy; 2024 Airbnb. All rights reserved.</p>
+    </footer>
+</body>
+</html>
