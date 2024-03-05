@@ -1,0 +1,83 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+  height: 200vh;
+  background-color: rgb(15, 14, 14);
+}
+
+header{
+  background-color: rgb(60, 185, 230);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+img{
+  height: 3em;
+  width: 8em;
+  mix-blend-mode: multiply;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  height: 4em;
+}
+
+header nav .links {
+  display: flex;
+}
+
+header nav .links li{
+  position: relative;
+  margin: 0 2.5em;
+  height: 80px;
+  line-height: 80px;
+  list-style: none;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+header nav .links li::after{
+  position: absolute;
+  content: '';
+  bottom: 20px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: rgb(26, 25, 25);
+  transition: all .3s ease;
+}
+
+header nav .links li:hover::after{
+  width: 100%;
+}
+
+header nav .links li a {
+  color:#f9f9fb;
+  font-size: 17px;
+}
+
+header nav .social-links a i{
+  color: rgb(248, 240, 240);
+  font-size: 24px;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+
+header nav .social-links a i:hover{
+  color: black;
+  top: -8px;
+text-shadow: 0 0 16px rgb(12, 11, 11);
+}
+
