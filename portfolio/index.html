@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmutai</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <section class="hero">
+        <header>
+            <nav>
+              <img class="logo" src="/images/logo1.png" alt="logo1">
+              <div class="nav-links">
+               <a href="#">HOME</a>
+               <a href="#">ABOUT</a>
+               <a href="#">SKILLS</a>
+               <a href="#">PROJECTS</a>
+               <a href="#">CONTACT</a>
+
+              </div>
+              <span ><i class="fa-solid fa-sun btn-mode"></i></span>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="div-text">
+                <h4>Hi there am </h4>
+                <h1>Mutai Gideon</h1>
+                <span>Frontend Developer</span>
+               <p>Experienced frontend developer proficient in JavaScript, React, Tailwind CSS, Typescript and NextJs14 with a strong focus on creating engaging and user-friendly graphical user interfaces. Looking to join an innovative and dynamic team to further develop my skills and contribute to exciting projects.</p>
+               <a href="https://drive.google.com/file/d/1MbrT8oJZvcdigsD3SfIhJ0Rcf5-oEdiz/view?usp=sharing" class="btn">Download CV</a>
+               <div class="social-icon">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/giddymutai"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/mutai-gideon-cheru/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            </div>
+            <div class="div-img">
+                <img src="/images/hero.png" alt="">
+            </div>
+        </div>
+    </section>
+    <script>
+        var btnMode = document.querySelector('.btn-mode');
+        btnMode.onclick = function() {
+            document.body.classList.toggle('white-theme');
+            btnMode.classList.toggle('fa-sun')
+            btnMode.classList.toggle('fa-moon')
+        }
+    </script>
+    <footer>
+        © 2024 Designed by Gmutai
+    </footer>
+</body>
+</html>
